@@ -23,9 +23,6 @@ struct MoodBoardView: View {
             Spacer()
             CalendarView(start: Date(), monthsToShow: 1)
             Text("PS: Don't worry, we remind you what you very last mood was!").font(.subheadline).foregroundColor(.pink)
-//            Spacer()
-//            Text("Your last mood was: \(mp.user?.lastMood ?? "No data yet!")")
-//            Spacer()
             Button {
                 shouldShowLogOutOptions.toggle()
             } label: {

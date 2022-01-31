@@ -39,12 +39,9 @@ struct MoodPromptView: View {
                     self.day.mood = "good"
                     self.mp.user?.lastMood = "Good :)"
                     self.day.isSelected = true
-                    print(mp.user?.email, mp.user?.uid)
-                    print(self.day.hasMood,self.day.isSelected,self.day.mood, self.day.backgroundColor)
                     mp.user?.moodDays[self.day.dayComplete] = self.day.mood
                     
                     updateUserInformation()
-                    print("updated?")
                     presentationMode.wrappedValue.dismiss()
                     
                 } label: {
@@ -59,7 +56,6 @@ struct MoodPromptView: View {
                     self.day.mood = "meh"
                     self.mp.user?.lastMood = "Meh :/"
                     self.day.isSelected = true
-                    //save [dateComplete:Day()] on firebase
                     mp.user?.moodDays[self.day.dayComplete] = self.day.mood
                     updateUserInformation()
                     presentationMode.wrappedValue.dismiss()
@@ -84,13 +80,7 @@ struct MoodPromptView: View {
         }
     }
     private func updateUserInformation() {
-        //    @ObservedObject var mp = FetchUserModel()
         guard let user =  mp.user else { return }
-        //        if day.mood != user.moodDays[day.dayComplete]{
-        //
-        //        //    let userData = ["email": self.email, "uid": uid]
-        //
-        //        }
         print("updating?")
         FirebaseManager.shared.firestore.collection("users")
             .document(user.uid).updateData([

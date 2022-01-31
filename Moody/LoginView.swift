@@ -20,7 +20,6 @@ struct LoginView: View {
     
     
     var body: some View {
-        //        LinearGradient(gradient: gradient, startPoint: .bottomTrailing, endPoint: .topLeading).ignoresSafeArea()
         NavigationView{
             VStack{
                 Image("appstore")
@@ -31,20 +30,22 @@ struct LoginView: View {
                 ScrollView{
                     VStack(spacing: 16) {
                         Picker(selection: $isLoginMode, label: Text("Picker here")) {
-                            Text("Login")
+                            Text("Login").foregroundColor(.black)
                                 .tag(true)
-                            Text("Create Account")
+                            Text("Create Account").foregroundColor(.black)
                                 .tag(false)
                         }.pickerStyle(SegmentedPickerStyle())
                             .padding()
                         
                         TextField ("Email", text: $email)
+                            .background(.pink)
+                            .padding(18)
                             .keyboardType(.emailAddress)
                             .autocapitalization(.none)
-                            .padding(12)
                             .foregroundColor(.black)
                         SecureField("Password", text: $password)
-                            .padding(12)
+                            .background(.pink)
+                            .padding(18)
                             .foregroundColor(.black)
                         Spacer()
                         Button {
@@ -68,10 +69,6 @@ struct LoginView: View {
                             EmptyView()
                             
                         }
-                        
-//                        if createdAccount {
-//                            displayCreatedAccount()
-//                        }
                         Text(self.signupStatus).foregroundColor(.pink)
                         Text(self.loggedin).foregroundColor(.pink)
                     }
@@ -81,7 +78,7 @@ struct LoginView: View {
                 .background(Color(.init(red: 245, green:202, blue: 123, alpha: 1)).ignoresSafeArea())
             }
             
-        }.navigationViewStyle(StackNavigationViewStyle()).padding()
+        }.navigationViewStyle(StackNavigationViewStyle()).padding().background(.white)
         
     }
     
