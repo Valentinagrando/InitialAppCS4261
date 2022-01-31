@@ -9,7 +9,7 @@ The reverse is also fair, no one has all good days! And that's okay!
 Watch the demo below to understand more!
 
 ## Video Demo:
-https://youtu.be/1Kia9j-JFvs
+
 
 ## How to see it on your computer/device:
 
