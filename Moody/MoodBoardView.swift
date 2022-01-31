@@ -18,8 +18,11 @@ struct MoodBoardView: View {
         VStack{
             Spacer()
             Text("Mood Calendar").font(.largeTitle).foregroundColor(.pink)
+            Text("Mood Calendar is a one instance reflection calendar. Every time you log out the moods in the calendar get erased so that next time you log in you can reflect on your days more fairly!").multilineTextAlignment(.center).font(.subheadline).background(.pink).foregroundColor(.white)
+            Text("Happy Reflecting!").font(.subheadline).background(.pink).foregroundColor(.white)
             Spacer()
             CalendarView(start: Date(), monthsToShow: 1)
+            Text("PS: Don't worry, we remind you what you very last mood was!").font(.subheadline).foregroundColor(.pink)
 //            Spacer()
 //            Text("Your last mood was: \(mp.user?.lastMood ?? "No data yet!")")
 //            Spacer()

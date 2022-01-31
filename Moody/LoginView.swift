@@ -69,9 +69,10 @@ struct LoginView: View {
                             
                         }
                         
-                        if createdAccount {
-                            displayCreatedAccount()
-                        }
+//                        if createdAccount {
+//                            displayCreatedAccount()
+//                        }
+                        Text(self.signupStatus).foregroundColor(.pink)
                         Text(self.loggedin).foregroundColor(.pink)
                     }
                     
@@ -93,15 +94,16 @@ struct LoginView: View {
     }
     
     @State var loggedin = ""
+    @State var signupStatus = ""
     
     private func createNewAccount() {
         FirebaseManager.shared.auth.createUser(withEmail: email, password: password) { result, error in
             if let err = error {
-                print("Failed to create user: ", err)
+                self.signupStatus = "Failed to log in user: \(err)"
                 return
             }
             createdAccount = true
-            print("Successfully created user: \(result?.user.uid ?? "")")
+            self.signupStatus = "Successfully created user: \(result?.user.uid ?? "")"
             storeUserInformation()
             showCalendar = true
         }
