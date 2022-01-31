@@ -10,6 +10,8 @@ Watch the demo below to understand more!
 
 ## Video Demo:
 
+## How to see it on your computer/device:
+
 ## Tech Stack + Libraries used:
 Swift
 Firebase
