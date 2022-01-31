@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		765BB49227A6447E00DD0AD2 /* MonthCal in Resources */ = {isa = PBXBuildFile; fileRef = 765BB49127A6447E00DD0AD2 /* MonthCal */; };
+		765BB49D27A644ED00DD0AD2 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB49327A644EC00DD0AD2 /* Day.swift */; };
+		765BB49E27A644ED00DD0AD2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB49427A644EC00DD0AD2 /* Colors.swift */; };
+		765BB49F27A644ED00DD0AD2 /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB49527A644EC00DD0AD2 /* GridStack.swift */; };
+		765BB4A027A644ED00DD0AD2 /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB49627A644EC00DD0AD2 /* Month.swift */; };
+		765BB4A127A644ED00DD0AD2 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB49727A644EC00DD0AD2 /* MonthView.swift */; };
+		765BB4A227A644ED00DD0AD2 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB49827A644EC00DD0AD2 /* CalendarView.swift */; };
+		765BB4A327A644ED00DD0AD2 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB49927A644ED00DD0AD2 /* Helper.swift */; };
+		765BB4A427A644ED00DD0AD2 /* DayCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB49A27A644ED00DD0AD2 /* DayCellView.swift */; };
+		765BB4A627A644ED00DD0AD2 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB49C27A644ED00DD0AD2 /* WeekdaysView.swift */; };
+		765BB4AA27A654DA00DD0AD2 /* MoodPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB4A927A654DA00DD0AD2 /* MoodPromptView.swift */; };
+		765BB4B027A6FD8A00DD0AD2 /* FetchUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB4AF27A6FD8900DD0AD2 /* FetchUserModel.swift */; };
+		765BB4B627A7360600DD0AD2 /* Moods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB4B527A7360600DD0AD2 /* Moods.swift */; };
+		765BB4BD27A7375900DD0AD2 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB4B727A7375700DD0AD2 /* FirebaseManager.swift */; };
+		765BB4BF27A7375900DD0AD2 /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB4B927A7375900DD0AD2 /* ChatUser.swift */; };
+		765BB4C427A73CDA00DD0AD2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BB4C327A73CDA00DD0AD2 /* User.swift */; };
 		765C08FD27A36C3C007D2E9B /* MoodyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C08FC27A36C3C007D2E9B /* MoodyApp.swift */; };
-		765C08FF27A36C3C007D2E9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C08FE27A36C3C007D2E9B /* ContentView.swift */; };
+		765C08FF27A36C3C007D2E9B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C08FE27A36C3C007D2E9B /* LoginView.swift */; };
 		765C090127A36C3F007D2E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765C090027A36C3F007D2E9B /* Assets.xcassets */; };
 		765C090427A36C3F007D2E9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765C090327A36C3F007D2E9B /* Preview Assets.xcassets */; };
 		765C090E27A36C40007D2E9B /* MoodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C090D27A36C40007D2E9B /* MoodyTests.swift */; };
 		765C091827A36C40007D2E9B /* MoodyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C091727A36C40007D2E9B /* MoodyUITests.swift */; };
 		765C091A27A36C40007D2E9B /* MoodyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C091927A36C40007D2E9B /* MoodyUITestsLaunchTests.swift */; };
+		765C093627A59E88007D2E9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 765C093527A59E88007D2E9B /* GoogleService-Info.plist */; };
+		765C093B27A5A5D6007D2E9B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765C093A27A5A5D6007D2E9B /* Launch Screen.storyboard */; };
+		765C093E27A5C10D007D2E9B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 765C093D27A5C10D007D2E9B /* FirebaseAuth */; };
+		765C094027A5C10D007D2E9B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 765C093F27A5C10D007D2E9B /* FirebaseDatabase */; };
+		765C094227A5C10D007D2E9B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 765C094127A5C10D007D2E9B /* FirebaseFirestore */; };
+		765C094427A5C10D007D2E9B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 765C094327A5C10D007D2E9B /* FirebaseStorage */; };
+		765C094727A61A63007D2E9B /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 765C094627A61A63007D2E9B /* FSCalendar */; };
+		765C094927A61A7C007D2E9B /* MoodBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C094827A61A7C007D2E9B /* MoodBoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +58,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		765BB49127A6447E00DD0AD2 /* MonthCal */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MonthCal; path = "../../../../Downloads/MonthCal-master/Sources/MonthCal"; sourceTree = "<group>"; };
+		765BB49327A644EC00DD0AD2 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		765BB49427A644EC00DD0AD2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		765BB49527A644EC00DD0AD2 /* GridStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
+		765BB49627A644EC00DD0AD2 /* Month.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
+		765BB49727A644EC00DD0AD2 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		765BB49827A644EC00DD0AD2 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		765BB49927A644ED00DD0AD2 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		765BB49A27A644ED00DD0AD2 /* DayCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCellView.swift; sourceTree = "<group>"; };
+		765BB49C27A644ED00DD0AD2 /* WeekdaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
+		765BB4A927A654DA00DD0AD2 /* MoodPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodPromptView.swift; sourceTree = "<group>"; };
+		765BB4AF27A6FD8900DD0AD2 /* FetchUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserModel.swift; sourceTree = "<group>"; };
+		765BB4B527A7360600DD0AD2 /* Moods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moods.swift; sourceTree = "<group>"; };
+		765BB4B727A7375700DD0AD2 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		765BB4B927A7375900DD0AD2 /* ChatUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
+		765BB4C327A73CDA00DD0AD2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		765C08F927A36C3C007D2E9B /* Moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		765C08FC27A36C3C007D2E9B /* MoodyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyApp.swift; sourceTree = "<group>"; };
-		765C08FE27A36C3C007D2E9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		765C08FE27A36C3C007D2E9B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		765C090027A36C3F007D2E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		765C090327A36C3F007D2E9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		765C090927A36C40007D2E9B /* MoodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +84,10 @@
 		765C091327A36C40007D2E9B /* MoodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		765C091727A36C40007D2E9B /* MoodyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyUITests.swift; sourceTree = "<group>"; };
 		765C091927A36C40007D2E9B /* MoodyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		765C093527A59E88007D2E9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		765C093727A5A122007D2E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		765C093A27A5A5D6007D2E9B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		765C094827A61A7C007D2E9B /* MoodBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodBoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +95,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765C094027A5C10D007D2E9B /* FirebaseDatabase in Frameworks */,
+				765C094427A5C10D007D2E9B /* FirebaseStorage in Frameworks */,
+				765C093E27A5C10D007D2E9B /* FirebaseAuth in Frameworks */,
+				765C094727A61A63007D2E9B /* FSCalendar in Frameworks */,
+				765C094227A5C10D007D2E9B /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +143,29 @@
 		765C08FB27A36C3C007D2E9B /* Moody */ = {
 			isa = PBXGroup;
 			children = (
+				765BB49127A6447E00DD0AD2 /* MonthCal */,
+				765C093727A5A122007D2E9B /* Info.plist */,
+				765BB49427A644EC00DD0AD2 /* Colors.swift */,
+				765BB49327A644EC00DD0AD2 /* Day.swift */,
+				765BB49627A644EC00DD0AD2 /* Month.swift */,
+				765BB49527A644EC00DD0AD2 /* GridStack.swift */,
+				765BB4B527A7360600DD0AD2 /* Moods.swift */,
+				765BB4B927A7375900DD0AD2 /* ChatUser.swift */,
+				765BB4B727A7375700DD0AD2 /* FirebaseManager.swift */,
+				765BB49927A644ED00DD0AD2 /* Helper.swift */,
+				765BB4C327A73CDA00DD0AD2 /* User.swift */,
+				765BB49827A644EC00DD0AD2 /* CalendarView.swift */,
+				765BB49A27A644ED00DD0AD2 /* DayCellView.swift */,
+				765BB4A927A654DA00DD0AD2 /* MoodPromptView.swift */,
+				765BB4AF27A6FD8900DD0AD2 /* FetchUserModel.swift */,
+				765BB49727A644EC00DD0AD2 /* MonthView.swift */,
+				765BB49C27A644ED00DD0AD2 /* WeekdaysView.swift */,
+				765C094827A61A7C007D2E9B /* MoodBoardView.swift */,
 				765C08FC27A36C3C007D2E9B /* MoodyApp.swift */,
-				765C08FE27A36C3C007D2E9B /* ContentView.swift */,
+				765C08FE27A36C3C007D2E9B /* LoginView.swift */,
+				765C093527A59E88007D2E9B /* GoogleService-Info.plist */,
 				765C090027A36C3F007D2E9B /* Assets.xcassets */,
+				765C093A27A5A5D6007D2E9B /* Launch Screen.storyboard */,
 				765C090227A36C3F007D2E9B /* Preview Content */,
 			);
 			path = Moody;
@@ -143,6 +212,13 @@
 			dependencies = (
 			);
 			name = Moody;
+			packageProductDependencies = (
+				765C093D27A5C10D007D2E9B /* FirebaseAuth */,
+				765C093F27A5C10D007D2E9B /* FirebaseDatabase */,
+				765C094127A5C10D007D2E9B /* FirebaseFirestore */,
+				765C094327A5C10D007D2E9B /* FirebaseStorage */,
+				765C094627A61A63007D2E9B /* FSCalendar */,
+			);
 			productName = Moody;
 			productReference = 765C08F927A36C3C007D2E9B /* Moody.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +291,10 @@
 				Base,
 			);
 			mainGroup = 765C08F027A36C3B007D2E9B;
+			packageReferences = (
+				765C093C27A5C10D007D2E9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				765C094527A61A62007D2E9B /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 765C08FA27A36C3C007D2E9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +313,9 @@
 			files = (
 				765C090427A36C3F007D2E9B /* Preview Assets.xcassets in Resources */,
 				765C090127A36C3F007D2E9B /* Assets.xcassets in Resources */,
+				765C093B27A5A5D6007D2E9B /* Launch Screen.storyboard in Resources */,
+				765BB49227A6447E00DD0AD2 /* MonthCal in Resources */,
+				765C093627A59E88007D2E9B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +340,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				765C08FF27A36C3C007D2E9B /* ContentView.swift in Sources */,
+				765BB4A327A644ED00DD0AD2 /* Helper.swift in Sources */,
+				765BB4A627A644ED00DD0AD2 /* WeekdaysView.swift in Sources */,
+				765BB4A227A644ED00DD0AD2 /* CalendarView.swift in Sources */,
+				765C08FF27A36C3C007D2E9B /* LoginView.swift in Sources */,
+				765BB4BF27A7375900DD0AD2 /* ChatUser.swift in Sources */,
+				765BB4AA27A654DA00DD0AD2 /* MoodPromptView.swift in Sources */,
+				765BB49E27A644ED00DD0AD2 /* Colors.swift in Sources */,
+				765BB4C427A73CDA00DD0AD2 /* User.swift in Sources */,
 				765C08FD27A36C3C007D2E9B /* MoodyApp.swift in Sources */,
+				765BB4A427A644ED00DD0AD2 /* DayCellView.swift in Sources */,
+				765BB4B027A6FD8A00DD0AD2 /* FetchUserModel.swift in Sources */,
+				765C094927A61A7C007D2E9B /* MoodBoardView.swift in Sources */,
+				765BB4BD27A7375900DD0AD2 /* FirebaseManager.swift in Sources */,
+				765BB4B627A7360600DD0AD2 /* Moods.swift in Sources */,
+				765BB4A027A644ED00DD0AD2 /* Month.swift in Sources */,
+				765BB49F27A644ED00DD0AD2 /* GridStack.swift in Sources */,
+				765BB49D27A644ED00DD0AD2 /* Day.swift in Sources */,
+				765BB4A127A644ED00DD0AD2 /* MonthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +521,10 @@
 				DEVELOPMENT_TEAM = 63KS2J26K8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Moody/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,9 +551,10 @@
 				DEVELOPMENT_TEAM = 63KS2J26K8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Moody/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -585,6 +686,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		765C093C27A5C10D007D2E9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		765C094527A61A62007D2E9B /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		765C093D27A5C10D007D2E9B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 765C093C27A5C10D007D2E9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		765C093F27A5C10D007D2E9B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 765C093C27A5C10D007D2E9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		765C094127A5C10D007D2E9B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 765C093C27A5C10D007D2E9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		765C094327A5C10D007D2E9B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 765C093C27A5C10D007D2E9B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		765C094627A61A63007D2E9B /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 765C094527A61A62007D2E9B /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 765C08F127A36C3B007D2E9B /* Project object */;
 }
