@@ -12,7 +12,10 @@ Watch the demo below to understand more!
 https://youtu.be/P5A2X6Xwv64
 
 ## How to see it on your computer/device:
+https://github.com/akeslo/MonthCal (MonthCal repository)  
 
+Video:  
+https://youtu.be/izi7bUaJ9Go
 
 ## Tech Stack + Libraries used:
 Swift  
