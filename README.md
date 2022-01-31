@@ -13,6 +13,6 @@ Watch the demo below to understand more!
 ## How to see it on your computer/device:
 
 ## Tech Stack + Libraries used:
-Swift
-Firebase
+Swift  
+Firebase  
 MonthCal Library by https://github.com/akeslo
